@@ -1,0 +1,21 @@
+<?php
+return[
+    'noreview'=>'Unfortunately there are no reviews yet. Leave it first!',
+    'button'=>'Leave review',
+    'added'=>'Added at: ',
+    'from'=>'From: ',
+    'reviewslist'=>'To reviews list',
+    'header'=>'Review title',
+    'headertitle'=>'Enter review title up to 255 characters',
+    'rating'=>'Your assessment:',
+    'ratingtitle'=>'Select mark',
+    'email'=>'Your e-mail',
+    'emailtitle'=>'Enter your feedback address',
+    'emailhelper'=>'The address will only be visible to the administrator',
+    'name'=>'Your name',
+    'nametitle'=>'Enter your name and surname',
+    'text'=>'Review text',
+    'texttitle'=>'Enter review text up to 1000 characters',
+    'add'=>'Add review',
+    'edit'=>'Edit review',
+];

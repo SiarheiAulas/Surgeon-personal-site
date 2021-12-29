@@ -1,0 +1,1 @@
+<div class="stars-{{$stars}}"><span></span></div>

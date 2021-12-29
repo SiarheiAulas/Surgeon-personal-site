@@ -1,0 +1,22 @@
+<?php
+return[
+    'nopost'=>'Unfortunately there are no news yet.',
+    'added'=>'Added at: ',
+    'sourcelink'=>'Reference link',
+    'download'=>'Download',
+    'newslist'=>'To news list',
+    'ruheader'=>'Header in russian',
+    'headertitle'=>'Enter 4-255 characters long header text',
+    'enheader'=>'Header in english',
+    'runewstext'=>'News text in russian',
+    'ennewstext'=>'News text in english',
+    'newstexttitle'=>'Enter 50 - 5000 characters long news text',
+    'externallink'=>'Reference link',
+    'externallinktitle'=>'Enter reference url',
+    'slug'=>'Slug',
+    'slugtitle'=>'Enter unique slug up to 100 characters',
+    'file'=>'Sellect file for attachment',
+    'filetitle'=>'Select file for upload (optional)',
+    'addnews'=>'Add news',
+    'updatenews'=>'Update news',
+];

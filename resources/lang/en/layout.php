@@ -1,0 +1,32 @@
+<?php
+
+return [
+
+    'myname' => 'Aulas Siarhei',
+    'mycareer'=>'surgeon',
+    'briefname'=>'Aulas Siarhei',
+    'footercontacts'=>'Contacts',
+    'footeradress'=>'8, Semashko str., Minsk',
+    'footerphone'=>'office number: +375 17 276-91-42',
+    'asidemenu'=>'Menu',
+    'asideresources'=>'Resources',
+    'asidemain'=>'Main',
+    'asidenews'=>'News',
+    'asidecv'=>'CV',
+    'asidereviews'=>'Reviews',
+    'asidefeedback'=>'Feedback',
+    'asidepublications'=>'Publications',
+    'asideconferences'=>'Conferences',
+    'asideadmin'=>'Admin panel',
+    'asidemnpc'=>'MSPC for Surgery, Transplantology and Hematology',
+    'asidebelmapo'=>'BelMAPE',
+    'asidebah'=>'Belorussian association of surgeons',
+    'asidestandart'=>'Diagnostics and treatment standarts',
+    'delete'=>'Delete',
+    'edit'=>'Edit',
+    'sendmsg'=>'Send message',
+    'add'=>'Add',
+    'update'=>'Update',
+    'lang'=>'Select your language:',
+    'emptysearch'=>'Search query did not return any results',
+];

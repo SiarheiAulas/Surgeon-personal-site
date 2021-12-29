@@ -1,0 +1,13 @@
+@if(session('locale')=='en')
+    @if(isset($en_title))
+        {{$en_title}}
+    @else
+        {{session('en_title')}}
+    @endif
+@else
+    @if(isset($ru_title))
+        {{$ru_title}}
+    @else
+        {{session('ru_title')}}
+    @endif
+@endif

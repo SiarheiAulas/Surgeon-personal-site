@@ -1,0 +1,15 @@
+User-agent: *
+Allow /
+Disallow:/ru/pwr
+Disallow:/en/pwr
+Disallow:/contentmg
+Disallow:/posts/create
+Disallow:/publs/create
+Disallow:/confs/create
+Disallow:/bios/create
+Disallow:/landings/create
+Disallow:/posts/edit
+Disallow:/publs/edit
+Disallow:/confs/edit
+Disallow:/bios/edit
+Disallow:/landings/edit
