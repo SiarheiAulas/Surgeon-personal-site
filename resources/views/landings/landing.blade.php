@@ -1,7 +1,8 @@
-@if(session('locale)=='en')
+@if(session('locale')=='en')
     {!!$land->en_text!!}
 @else
     {!!$land->ru_text!!}
+@endif
 @auth()
     <div class="admin-buttons">
         <form action="{{route('landings.destroy', $land->id)}}" method="post">

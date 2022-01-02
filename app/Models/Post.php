@@ -23,4 +23,8 @@ class Post extends Model
         return array('ru_header' => $array['ru_header'],'en_header' => $array['en_header'], 'ru_body'=>$array['ru_body'], 'en_body'=>$array['en_body']);
     }
 
+    public function getRouteKeyName(){
+        
+        return 'slug';
+    }
 }

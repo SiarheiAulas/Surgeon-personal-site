@@ -1,6 +1,11 @@
 <div class="main-text">
     <div class="title">
-        <h2><a href="{{route('confs.show', ['conf'=>$conf])}}">{{$conf->ru_header}}</a></h2>
+        <h2><a href="{{route('confs.show', ['conf'=>$conf])}}">
+            @if (session('locale')=='en')
+                {{$conf->en_header}}
+            @else
+                {{$conf->ru_header}}
+            @endif</a></h2>
     </div>
     <div class="date">
         <h3>{{__('conf.date')}}{{date('d.m.Y', strtotime($conf->start_date))}} 
@@ -10,7 +15,11 @@
         </h3>
     </div>
     <div>
-        {!!$conf->ru_description!!}
+        @if (session('locale')=='en')
+            {!!$conf->en_description!!}
+        @else
+            {!!$conf->ru_description!!}
+        @endif
     </div>
     @isset($conf->url_video)
         <div class="admin-buttons">

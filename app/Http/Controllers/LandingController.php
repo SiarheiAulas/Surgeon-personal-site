@@ -97,7 +97,7 @@ class LandingController extends Controller
         $landing->ru_text=$request->input('ru_text');
         $landing->en_text=$request->input('en_text');
         $landing->save();
-        return redirect()->route('landindgs.index');
+        return redirect()->route('landings.index');
     }
 
     /**
