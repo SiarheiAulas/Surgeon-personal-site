@@ -1,6 +1,6 @@
 <div class="main-text">
     <div>
-        <img src="{{asset('/public/storage/'.$bio->photo)}}" alt="photo" height="195.875px">
+        <img src="{{asset('storage/'.$bio->photo)}}" alt="photo" height="195.875px">
     </div>
     <div class="sub-title">
         <h3>{{__('bio.university')}}</h3>

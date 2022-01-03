@@ -12,15 +12,15 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             
             <!--Favicon-->
-            <link rel="shortcut icon" type="image/x-icon" href="{{asset('/public/img/favicon/favicon.ico')}}">
-            <link rel="icon" type="image/png" sizes="16x16" href="{{asset('/public/img/favicon/favicon_16x16.png')}}">
-            <link rel="icon" type="image/png" sizes="32x32" href="{{asset('/public/img/favicon/favicon_32x32.png')}}">
-            <link rel="icon" type="image/png" sizes="96x96" href="{{asset('/public/img/favicon/favicon_96x96.png')}}">
-            <link rel="icon" type="image/png" sizes="120x120" href="{{asset('/public/img/favicon/favicon_120x120.png')}}">
-            <link rel="icon" type="image/png" sizes="192x192" href="{{asset('/public/img/favicon/favicon_192x192.png')}}">
-            <link sizes="72x72" rel="apple-touch-icon" href="{{asset('/public/img/favicon/favicon_72x72.png')}}">
-            <link sizes="144x144" rel="apple-touch-icon" href="{{asset('/public/img/favicon/favicon_144x144.png')}}">
-            <link sizes="180x180" rel="apple-touch-icon" href="{{asset('/public/img/favicon/favicon_180x180.png')}}">
+            <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/favicon/favicon.ico')}}">
+            <link rel="icon" type="image/png" sizes="16x16" href="{{asset('img/favicon/favicon_16x16.png')}}">
+            <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/favicon/favicon_32x32.png')}}">
+            <link rel="icon" type="image/png" sizes="96x96" href="{{asset('img/favicon/favicon_96x96.png')}}">
+            <link rel="icon" type="image/png" sizes="120x120" href="{{asset('img/favicon/favicon_120x120.png')}}">
+            <link rel="icon" type="image/png" sizes="192x192" href="{{asset('img/favicon/favicon_192x192.png')}}">
+            <link sizes="72x72" rel="apple-touch-icon" href="{{asset('img/favicon/favicon_72x72.png')}}">
+            <link sizes="144x144" rel="apple-touch-icon" href="{{asset('img/favicon/favicon_144x144.png')}}">
+            <link sizes="180x180" rel="apple-touch-icon" href="{{asset('img/favicon/favicon_180x180.png')}}">
             
             <title>{{ config('app.name') }}
                 @include('locale')
