@@ -35,7 +35,7 @@
             @endisset
             @isset($post->attach)
                 @if($post->attachextension=='jpg'||$post->attachextension=='png'||$post->attachextension=='bmp'||$post->attachextension=='gif')
-                    <img src="{{asset('/storage/'.$post->attach)}}" alt="attached photo">
+                    <img src="{{asset('/public/storage/'.$post->attach)}}" alt="attached photo">
                 @else
                     <div class="admin-buttons">
                         <a href="{{route('download', ['file'=>$post->attach, 'id'=>$post->id])}}">{{__('post.download')}}</a>
